@@ -1,0 +1,53 @@
+body{
+    background-image: url(/assets/imgs/campos-de-cultivo.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 1rem;
+    
+    background-color: rgb(194, 192, 192);
+}
+th{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: darkgray;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+tr:hover{
+    background-color: rgb(192, 179, 179);
+
+}
+
+
+footer{
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: bottom;
+}
+
