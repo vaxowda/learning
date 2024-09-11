@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Percepción Remota en la Agricultura</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, red, blue, green, yellow);
+            background-size: 400% 400%;
+            animation: gradienteAnimacion 12s ease infinite;
+            font-family: "Lucida Console", "Courier New", monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        @keyframes gradienteAnimacion {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        header {
+            text-align: center;
+            background: black;
+            color: #92a4ff;
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 15px;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Remote sensing y SIG: herramientas para el futuro agrícola</h1>
+        <hr>
+        <nav>
+            <ul>                
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="cultivo.html">Percepción remota y SIG en cultivos</a></li>
+                <li><a href="herramientas.html">Herramientas de PR y SIG</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>La percepción remota y SIG en la industria</h2>
+    <hr>
+
+    <article class="container">
+        <h3>¿Qué es la percepción remota y SIG?</h3>
+        <img class="image" src="/assets/imgs/img/1-INTRO télédétection - AdobeStock 1600x600px.jpg" alt="teledeteccion">
+        <p>
+            La percepción remota se refiere a la adquisición de información sobre la Tierra o un objeto,
+            sin contacto físico directo, a través de sensores instalados en plataformas como satélites,
+            aviones, drones o estaciones terrestres. Esta técnica se basa en la detección y registro de la
+            radiación electromagnética reflejada o emitida por la superficie terrestre y sus objetos. La
+            percepción remota se ha convertido en una herramienta esencial para la monitorización y
+            gestión de recursos naturales y actividades humanas en la Tierra.
+        </p>
+
+        <img class="image2" src="/assets/imgs/img/SAR_Agriculture_figure1.webp" alt="arcgis remote sensing">
+        <p>
+            Por otro lado, los SIG también facilitan el análisis multicriterio y multiobjetivo, que consiste
+            en evaluar las áreas potenciales de las tierras agrícolas considerando diferentes factores y
+            metas, como la rentabilidad económica, la conservación del suelo y el agua, la mitigación del
+            cambio climático y la adaptación a sus efectos. Los SIG son, por tanto, ventajosos para la
+            evaluación de áreas potenciales de las tierras agrícolas, ya que permiten obtener resultados
+            más precisos, completos y flexibles que los métodos tradicionales.
+        </p>
+    </article>
+
+    <footer class="footer">
+        Derechos reservados &copy; 2024
+    </footer>
+</body>
+</html>
